@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.App {
+	text-align: center;
+	font-family: "Inter", sans-serif;
+}
+.div1 {
+	width: 100vw;
+	height: 100vh;
+	background-color: hsl(0, 0%, 8%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div {
+	width: 25%;
+	background-color: hsl(0, 0%, 12%);
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.name {
+	color: hsl(0, 0%, 100%);
+}
+
+.fn {
+	color: silver;
+}
+
+.area {
+	color: hsl(75, 94%, 57%);
+}
+
+.img img {
+	border-radius: 100%;
+}
+
+.butns {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.gh {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 20%);
+	height: 30px;
+	width: 100%;
+	color: hsl(0, 0%, 100%);
+	border-radius: 5px;
+	font-weight: 400, 600, 700;
+}
+.fm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 20%);
+	height: 30px;
+	width: 100%;
+	font-weight: 400, 600, 700;
+
+	border-radius: 5px;
+}
+.li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 20%);
+	height: 30px;
+	width: 100%;
+
+	border-radius: 5px;
+}
+.x {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: hsl(0, 0%, 20%);
+	height: 30px;
+
+	border-radius: 5px;
+}
+.in {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 20%);
+	height: 30px;
+	width: 100%;
+
+	border-radius: 5px;
+}
+.link {
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+}
