@@ -7,7 +7,7 @@ const GitHub = () => {
 				<div className="img">
 					<img
 						src={profilePic}
-						alt="Image is not available"
+						alt="profile"
 					/>
 				</div>
 				<div className="name">
@@ -17,10 +17,7 @@ const GitHub = () => {
 					<h4> London, United Kingdom</h4>
 				</div>
 				<div className="fn">
-					<h5>
-						{" "}
-						<a href=""></a> "Front-end developer and avid reader."
-					</h5>
+					<h5> "Front-end developer and avid reader."</h5>
 				</div>
 				<div className="butns">
 					<div className="gh">
@@ -29,6 +26,7 @@ const GitHub = () => {
 							<a
 								className="link"
 								href="https://github.com/"
+								rel="noreferrer"
 								target="_blank">
 								{" "}
 								GitHub
@@ -40,6 +38,7 @@ const GitHub = () => {
 							{" "}
 							<a
 								className="link"
+								rel="noreferrer"
 								href="https://www.frontendmentor.io/home"
 								target="_blank">
 								Frontend Mentor
@@ -51,6 +50,7 @@ const GitHub = () => {
 							{" "}
 							<a
 								className="link"
+								rel="noreferrer"
 								href="https://www.linkedin.com/feed/"
 								target="_blank"
 								color="white">
@@ -63,6 +63,7 @@ const GitHub = () => {
 							{" "}
 							<a
 								className="link"
+								rel="noreferrer"
 								href="https://x.com/home"
 								target="_blank">
 								Twitter
@@ -74,6 +75,7 @@ const GitHub = () => {
 							{" "}
 							<a
 								className="link"
+								rel="noreferrer"
 								href="https://www.instagram.com/"
 								target="_blank">
 								Instagram
